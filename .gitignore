@@ -1,6 +1,7 @@
 # bundleファイル
 public/*
 !public/index.html
+!public/svg/
 
 # node_modules
 node_modules/
