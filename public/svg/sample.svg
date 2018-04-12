@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="TopLayer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2551.2 5102.4" enable-background="new 0 0 2551.2 5102.4" xml:space="preserve">
+	<g id="Image">
+		<image
+			overflow="hidden"
+			width="2710"
+			height="3189"
+			xlink:href="/img/sample.jpg"
+			transform="translate(0, 0) scale(1) matrix(0.9414 0 0 0.9067 0 1324.6071)">
+		</image>
+	</g>
+	<g id="Background_1_">
+		<rect x="0" y="4214.9" fill="#B1B1B1" width="2551.2" height="887.5"/>
+	</g>
+	<g id="Background">
+		<rect x="0" fill="#B1B1B1" width="2551.2" height="1324.6"/>
+	</g>
+	<g id="Message">
+		<rect x="313.2" y="421.5" fill="none" width="1937.6" height="605.9"/>
+		<text transform="matrix(1 0 0 1 381.9751 597.4545)" font-family="'KozGoPr6N-Regular-90ms-RKSJ-H'" font-size="200px">あいうえおかきくけ</text>
+	</g>
+	<g id="CompanyName">
+		<rect x="313.2" y="4355.1" fill="none" width="1937.6" height="605.9"/>
+		<text transform="matrix(1 0 0 1 481.9751 4531.1294)" font-family="'KozGoPr6N-Regular-90ms-RKSJ-H'" font-size="200px">こさしすせそたちつ</text>
+	</g>
+</svg>

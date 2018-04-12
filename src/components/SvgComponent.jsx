@@ -1,5 +1,5 @@
 import React from 'react';
-import SampleSvg from '../../public/svg/svg_sample.svg';
+import SampleSvg from '../../public/svg/sample.svg';
 
 const SvgComponent = () => (
   <SampleSvg />
