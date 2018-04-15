@@ -2,6 +2,7 @@
 public/*
 !public/index.html
 !public/svg/
+!public/img/
 
 # node_modules
 node_modules/
