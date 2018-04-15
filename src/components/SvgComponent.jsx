@@ -1,5 +1,14 @@
 import React from 'react';
 import { Samy, SvgProxy } from 'react-samy-svg';
+import styled from 'styled-components';
+
+const SvgArea = styled.div`
+  width: 50%;
+`;
+
+const Button = styled.button`
+  font-size: 36px;
+`;
 
 export default class SvgComponent extends React.Component {
   constructor(props) {
@@ -43,17 +52,18 @@ export default class SvgComponent extends React.Component {
   render() {
     return (
       <div>
-        <Samy path="../../svg/sample.svg">
-          <SvgProxy
-            selector="#Image image"
-            transform={`$ORIGINAL translate(${this.state.translateX}, ${this.state.translateY})`}
-          />
-        </Samy>
-        {/* ボタンエリア */}
-        <button onClick={() => this.handleClick('up')}>Up</button>
-        <button onClick={() => this.handleClick('down')}>Down</button>
-        <button onClick={() => this.handleClick('right')}>Right</button>
-        <button onClick={() => this.handleClick('left')}>Left</button>
+        <SvgArea>
+          <Samy path="../../svg/sample.svg">
+            <SvgProxy
+              selector="#Image image"
+              transform={`$ORIGINAL translate(${this.state.translateX}, ${this.state.translateY})`}
+            />
+          </Samy>
+        </SvgArea>
+        <Button onClick={() => this.handleClick('up')}>Up</Button>
+        <Button onClick={() => this.handleClick('down')}>Down</Button>
+        <Button onClick={() => this.handleClick('right')}>Right</Button>
+        <Button onClick={() => this.handleClick('left')}>Left</Button>
       </div>
     );
   }
