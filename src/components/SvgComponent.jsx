@@ -1,8 +1,8 @@
 import React from 'react';
-import SampleSvg from '../../public/svg/sample.svg';
+import { Samy, SvgProxy } from 'react-samy-svg';
 
 const SvgComponent = () => (
-  <SampleSvg />
+  <Samy path="../../svg/sample.svg" />
 );
 
 export default SvgComponent;
